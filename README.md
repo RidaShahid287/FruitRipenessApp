@@ -13,6 +13,7 @@ Python Version: 3.10 (TensorFlow does not support Python 3.11)
 PIP Version: Latest (upgrade required)
 
 📌 Installation Guide (From Scratch)
+
 🔹 Step 1: Install Python 3.10
 Download Python 3.10 from Python Official Site
 During installation, check: ✅ Add Python to PATH
@@ -71,24 +72,6 @@ To start the application:
 ❗ Run this command:
 python main.py
 This will launch a GUI where you can upload an image to classify it as Ripe or Unripe.
-
-📌 Project Structure
-FruitRipenessApp/
-│── database/                  # Folder for database files (Optional)
-│── dataset/                   # Folder containing images for training
-│   ├── Ripe/
-│   ├── Unripe/
-│── fruit_env/                 # Virtual environment (generated after setup)
-│── images/                    # Folder to store test images
-│── models/                    # Folder for the trained model
-│   ├── fruit_classifier.h5     # Pretrained Model
-│── classify.py                 # Script to classify images
-│── main.py                     # GUI Application
-│── preprocess.py               # Data Preprocessing Script
-│── train_model.py              # CNN Model Training Script
-│── fruit_classifier.db         # SQLite Database
-│── requirements.txt            # All required Python packages
-│── README.md                   # Documentation
 
 📌 Technologies Used
 Python 3.10

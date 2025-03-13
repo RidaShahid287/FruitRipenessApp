@@ -1,6 +1,6 @@
 import os
 import numpy as np
-import cv2  # Import OpenCV
+import cv2   # Import OpenCV
 
 # Function to load and preprocess images from dataset
 def load_dataset(folder):

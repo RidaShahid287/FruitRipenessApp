@@ -81,4 +81,4 @@ Pillow (Image Processing)
 Tkinter (GUI)
 SQLite (Database for user login)
 
-HAPPY CODING!!! !
+HAPPY CODING!!!

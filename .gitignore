@@ -1,0 +1,20 @@
+# Ignore virtual environment
+fruit_env/
+
+# Ignore model files
+models/*.h5
+models/*.tflite
+dataset/
+# Ignore compiled binaries
+*.pyd
+*.dll
+*.so
+*.exe   
+*.pdb
+*.obj
+*.bin
+
+# Ignore logs and caches
+__pycache__/
+*.log
+*.tmp

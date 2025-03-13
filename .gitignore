@@ -5,6 +5,7 @@ fruit_env/
 models/*.h5
 models/*.tflite
 dataset/
+images/
 # Ignore compiled binaries
 *.pyd
 *.dll

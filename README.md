@@ -73,6 +73,29 @@ To start the application:
 python main.py
 This will launch a GUI where you can upload an image to classify it as Ripe or Unripe.
 
+🔹 Project Structure
+FruitRipenessApp/
+├── __pycache__/               # Compiled Python files
+├── .git/                      # Git repository metadata
+├── database/                  # Database-related files
+├── dataset/                   # Dataset for training and testing
+├── fruit_env/                 # Virtual environment (should be excluded from Git)
+├── images/                    # Folder for storing fruit images
+├── models/                    # Machine learning models
+│   ├── fruit_classifier.h5    # Trained model file
+│   └── test/                  # Model testing files
+├── .gitattributes             # Git LFS attributes (if any)
+├── .gitignore                 # Git ignore file to exclude unnecessary files
+├── all-files.txt              # List of all repository files
+├── classify.py                # Script to classify fruit images
+├── fruit_classifier.db        # Database file
+├── main.py                    # Main entry point for the application
+├── preprocess.py              # Preprocessing script for dataset
+├── README.md                  # Project documentation
+├── requirements.txt           # Dependencies and packages needed
+└── train_model.py             # Script to train the fruit classifier model
+
+
 📌 Technologies Used
 Python 3.10
 TensorFlow (Deep Learning Model)

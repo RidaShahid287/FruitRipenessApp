@@ -95,6 +95,8 @@ FruitRipenessApp/
 ├── requirements.txt           # Dependencies and packages needed
 └── train_model.py             # Script to train the fruit classifier model
 
+🔹 Dataset Images Link:
+https://drive.google.com/file/d/1FJ-Q1DTgMQc7e_FVy9qlcAd1wlKatsxA/view?usp=sharing
 
 📌 Technologies Used
 Python 3.10
